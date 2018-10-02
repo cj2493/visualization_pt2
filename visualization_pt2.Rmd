@@ -1,0 +1,18 @@
+---
+title: "visualization_pt2"
+author: "Courtney Johnson"
+date: "October 2, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+devtools::install_github("thomasp85/patchwork")
+```
+
+```{r}
+library(tidyverse)
+library(ggridges)
+library(patchwork)
+```
+
